@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  </head>
+<body>
+
+  <!-- Main Div Starts -->
+  <div>
+
+     <!-- Nav Bar Starts -->
+     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(207, 39, 157)">
+
+      <!-- Nav Bar brand Section Starts -->
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="Website Logo" style="width: 45px;">
+       </a>
+       <a class="navbar-brand" href="index.html">HILL VIEW</a>
+       <!-- Nav Bar brand Section Ends -->
+
+      <!-- Toggle Colapse Button Starts -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Toggle Colapse Button Ends -->
+      
+        <!-- Nav Bar List Item Section Starts -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav" style="margin-left: 15%;">
+
+              <!-- Items Starts -->
+              <li class="nav-item active">
+                
+                <a class="nav-link" href="index.html">
+                  <i class="fas fa-home"></i>
+                  Home
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">
+                  <i class="fab fa-slack"></i>
+                  Our Service
+                </a>
+              </li>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">
+                  <i class="far fa-address-card"></i>
+                  About Us
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="event.html">
+                  <i class="far fa-calendar-alt"></i>
+                  Events
+                </a>
+              </li>
+              <!-- Items Ends -->
+            </ul>
+
+        </div>
+        <!-- Nav Bar List Item Section Ends -->
+
+      </nav>  
+      <!-- Navbar Ends -->
+
+      <!-- Main Slider Starts -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+
+          <!-- Slider Items Starts -->
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <!-- Slider Item Ends -->
+
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner" style="background-image: url(images/slider/slider1.jpg);"> </div>
+            <div class="carousel-caption " style="padding-bottom: 180px;" >
+              <h1 style="font-size: 45px; font-weight: bolder; color: white; animation-delay: 1s;" class="animate__animated animate__bounceInRight"> OUR SERVICES </h1>
+                <p style="animation-delay: 2s;" class="animate__animated animate__bounceInLeft"> Get the best services of your choice </p>
+                  <a href="services.html"><button type="button" class="btn btn-warning animate__animated animate__bounceInRight" style="width: 120px; font-weight: bold; color: black; border-radius: 50px; animation-delay: 3s;"> GET IT </button></a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="banner" style="background-image: url(images/slider/slider2.jpg);"> </div>
+              <div class="carousel-caption" style="padding-bottom: 180px;">
+                <h1 style="font-size: 45px; font-weight: bolder; color: white; animation-delay: 1s;" class="animate__animated animate__slideInDown"> ABOUT US </h1>
+                  <p class="animate__animated animate__fadeInUp" style="animation-delay: 2s;">A STREAK CONSISTENCY OF SUCCESS </p>
+                    <a href="aboutus.html"><button type="button" class="btn btn-warning animate__animated animate__zoomIn" style="width: 120px; font-weight: bold; color: black; border-radius: 50px; animation-delay: 3s;"> KNOW IT </button></a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="banner" style="background-image: url(images/slider/slider3.jpg);"> </div>
+            <div class="carousel-caption" style="padding-bottom: 180px;">
+              <h1 style="font-size: 45px; font-weight: bolder; color: white; animation-delay: 1s;" class="animate__animated animate__zoomIn"> EVENTS </h1>
+              <p style="animation-delay: 2s;" class="animate__animated animate__fadeInLeft"> PRECIOUS MEMORABLE EVENTS WITH OUR CUSTOMERS </p>
+                <a href="event.html"><button type="button" class="btn btn-warning animate__animated animate__zoomIn" style="width: 120px; font-weight: bold; color: black; border-radius: 50px; animation-delay: 3s;"> EVENTS </button></a>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+
+      <!-- Main Slider Ends -->
+    
+    </div>
+    <!-- Main Div Ends -->
+
+    <!-- Java Scripts -->
+        <!-- FONT AWSOME LINNK -->
+        <script src="https://kit.fontawesome.com/87a1e5f6ab.js" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

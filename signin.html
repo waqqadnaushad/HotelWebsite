@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING FORM</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    ul{
+        margin-bottom: 30px;
+    }
+
+    ul a{
+        font-size: 25px;
+        color:white;
+    }
+
+    ul a:hover{
+        text-decoration: none;
+        color: grey;
+    }
+
+    .label{
+        color: white;
+        font-size: 19px;
+        font-weight: normal;
+        margin-left: 15px
+        
+    }
+
+    .form-control{
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid purple;
+        margin-bottom: 30px;
+        color: white;
+        font-size: 22px;
+        padding: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #check-box{
+        height: 15px;
+        width: 15px;
+        margin-left: 15px;
+    }
+
+    span{
+        color: white;
+        font-size: 19px;
+    }
+
+    .btn-info{
+        background-color: purple;
+        border: 2px solid purple;
+        font-size: 20px;
+        background: transparent;         
+    }
+
+    .btn-info:hover{
+        background-color: purple;
+    }
+
+.text-center{
+    color: white;
+    margin-top: 40px;
+    font-size: 19px;
+    
+}
+
+.active{
+    background-color: yellow;
+    border-radius: 8px;
+    color: #000;
+}
+
+.signing:hover{
+background-color: purple;
+color: white;
+border-radius: 8px;
+}
+
+</style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-md-1 col-lg-1">   </div>
+            <div class="col-md-10 col-lg-10 col-sm-12">  
+                <h1 style="color: purple; text-align: center; font-weight: bold; margin-top: 25px; animation-delay: 0.5s;" class="animate__animated animate__zoomIn">BOOKING FORM SIGN IN</h1>
+            
+
+                <div class="row" style="margin-top: 20px; background-color: orange; border-radius: 8px;">
+                    
+                    <div class="col-md-6">
+                        <img src="images/signin.jpg" alt="" style="width: 100%; height: 95%;margin-top: 11px;">
+                    </div>
+               
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+
+
+
+                    <ul>
+                        <a href="signin.html" class="col-lg-6 col-md-6 col-sm-6 active signing">Sign In</a>
+                        <a href="signup.html" class="col-lg-6 col-md-6 col-sm-6 signing">/Sign Up </a>
+                    </ul>
+
+                    <form>
+                        <div class="row">
+                            <label class="label control-label">User Name</label>
+                            <input type="text" class="form-control" placeholder="First name">
+                            <label class="label control-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Password">
+                            <input type="checkbox" id="check-box"> <span style="margin-bottom: 15px;">REMEMBER ME</span>
+                        </div>
+                            <a href="#">
+                                 <div class="btn btn-info btn-block">
+                                SIGN IN
+                                </div>
+                            </a>
+                           <a href=""> <p class="text-center">
+                                FORGET PASSWORD
+                           </p></a>
+                         
+                        
+                      </form>
+                </div>
+                
+                
+            <div class="col-md-1 col-lg-1">   </div>
+        </div>
+    </div>
+</div>
+</div>
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
